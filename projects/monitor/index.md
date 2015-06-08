@@ -8,6 +8,6 @@ All components send their logs here.
 
 ## Usage
 
-POST to /log using this format (data is optional):
+Send a POST request to `/log` using this format (data is optional):
 
 `{ "message" : "", "data" : {} }`
