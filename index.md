@@ -8,6 +8,7 @@ TradeHub is an ecosystem of stock market related software I develop in my spare 
 
 ## TradeHub projects
 
+* [Backtesting](projects/backtesting)
 * [QuoteServer](projects/quoteserver)
 * [Discovery](projects/discovery)
 * [Monitor](projects/monitor)
