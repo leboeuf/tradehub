@@ -16,3 +16,6 @@ The backtest needs a Portfolio objects to work with (can be an empty portfolio o
 
 A strategy is a C# file that implements the ITradingStrategy interface. It contains a single public method Run that gets executed on each tick.
 
+### Step by step
+
+The simulation can be run all at once or step by step. In the latter, it is possible to observe the simulation's behaviour after each tick and organically tweak the strategy to better perform.
