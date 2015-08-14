@@ -10,7 +10,7 @@ The backtesting framework allows to test strategies using historical data.
 
 There is an example CLI project included to help you understand how to use the backtesting framework.
 
-The backtest needs a Portfolio objects to work with (can be an empty portfolio or a portfolio that already has an history). Then it needs the stock to backtest and the strategy to run each tick.
+The backtest needs a [Portfolio](https://github.com/leboeuf/TradeHub-csharp/blob/master/TradeHub.Model/Portfolio.cs) objects to work with (can be an empty portfolio or a portfolio that already has an history). Then it needs the stock to backtest and the strategy to run each tick.
 
 ### Strategy
 
