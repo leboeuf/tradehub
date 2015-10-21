@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## QuoteServer (PHP)
+# QuoteServer (PHP)
 
 Lightweight server that can process queries for EOD and historical data.
 
