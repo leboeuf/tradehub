@@ -21,7 +21,7 @@ Gets EOD data from Yahoo! finance.
 
 Can output JSON or return a ZIP of CSV files.
 
-`/?s={comma-separated symbols list}&e={exchange}&t={date or date range or number of days in the past}&f={json|zip}` If `e` is specified, `s` is ignored. If `t`is not specified, only the latest day of data is returned. If `f` is not specified, JSON is the default.
+`/?s={comma-separated symbols list}&e={exchange}&t={date or date range or number of days of data in the past (1 = today if trading day)}&f={json|zip}` If `e` is specified, `s` is ignored. If `t`is not specified, only the latest day of data is returned. If `f` is not specified, JSON is the default.
 `/?stats` returns statistics in JSON format about the contents of the database.
 `/?dump` returns a ZIP file containing all of the historical data for every stock in the database.
 
